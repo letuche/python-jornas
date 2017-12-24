@@ -1,0 +1,106 @@
+Dicas para solucionar suas dúvidas:
+
+1. ler o erro
+
+2. consultar o glossário
+
+3. pesquisar no google
+
+4. não fazer  perguntas/tópicos duplicados
+
+5. não fazer off-topic
+
+6. não fazer perguntas no privado
+
+7. título super descritivo
+
+8. colar o código e o erro
+
+9. especificar a aula em que apareceu a dúvida
+
+- somos uma comunidade de aprendizado
+- tópico de técnicas de estudo
+- responder dúvidas no fórum
+- criar tópicos de faqs de casa fórum
+- telegram: @pythonjor
+- netiqueta/netiquette
+
+No forum, ao criar um tópico, utilizar antes do titulo a marcação do modulo e da aula. Ex: [m1a3] 
+
+- syntax error (última linha do erro)
+
+
+
+
+***ESCREVAM SUAS QUESTÕES/SUGESTÕES AQUI EMBAIXO*** 
+
+Incluam seus nomes no ícone de participantes aqui ao lado ---->
+
+OK ? existe alguma forma de identificar quando utilizar    ( [ {  na sintax do Python? alguma regra simples para facilitar na construção dos comandos Python
+TKS
+
+OK Sobre os vídeos do módulo 2: não consigo entender o﻿ que é "registro" em: for registro in csv.DictReader(arquivo)... Cada registro é uma linha? é uma célula?ou nenhuma das alternativas anteriores?
+Cada registro é uma linha, colega
+
+OK o @Rosental mandou o e-mail com o seguinte trecho: "Vamos escolher os dez melhores projetos finais e oferecer bolsas de viagem para participação num workshop especial na sede do Google em São Paulo, onde os felizardos e as felizardas poderão conhecer o Álvaro e o Pedro e aprender mais. Depois daremos mais detalhes sobre isso." @Turicas, vc pode falar mais sobre isso?
+
+OK Existem métodos gerais (pra qualquer biblioteca)? Ou são vinculados a determinadas bibliotecas, especificos (por exemplo  .most_common)?  (Vanini) -- https://docs.python.org/3/library/collections.html
+
+OK Como analisar dados de arquivos de pdf. Isso será abordado no curso?
+>>> procure no google alguns sites com a busca "pdf to csv" ou xls etc ;)
+
+OK Aprenderemors como criar uma interface para o uso de outros usuários?
+
+OK no curso, além de raspagem, a gente também verá mais sobre análise de dados? queria saber mais sobre isso para trabalhar com SQL.
+
+
+OK Vale a pena desinstalar o anaconcda/spyder e ficar só com o jupyter, porque fica mais fácil﻿ de acompanha?
+
+OK MBA sobre big data, por ser um assunto tao novo, dificilmente será bom? isso é verdade? o que recomenda (além do Knight), preferencialmente de forma presencial?
+
+OK por enquanto ainda não tá muito claro como programar o python pra fazer coisas mais concretas como entrar todos os dias em um link e enviar um email se achar determianda palavra. chegaremos nisso?
+
+
+OK Outros exercícios como o de escovar os dentes, onde podemos encontrá-los? :)
+
+OK Álvaro, uma dúvida: se os arquivos forem muito grandes e não for possível abrir no excel para ver as chaves (o cabeçalho), tem como descobrir só esses parametros de forma fácil pelo Python?  
+No python tem a biblioteca pandas, q tem a função é .head(). Ela mostra, por  (padrao), as 5 primeiras linhas. - Fora do pandas, tem algo do python que só retorne as chaves? - Plínio :) 
+Valeu, Álvaro! Era isso que eu queria agilizar hehe
+
+    import csv
+
+    arquivo = open('candidatos-2016.csv', encoding='utf8')
+
+    leitor = csv.reader(arquivo)
+
+    contador = 0
+
+    for linha in leitor:
+
+        print(linha)
+
+        contador += 1
+
+        if contador == 5:
+
+            break
+
+
+OK Eu tentei procurar algumas informações na Wiki do Python, mas continuei não entendendo muito bem, então pergunto: qual o propósito/funcionamento do comando "for"? Ele é usado em algumas aulas do módulo 2 e fiquei em dúvida. Obrigado
+
+OK Álvaro, que outros exemplos você dá de reportagens que foram feitas de uma forma que a gente possa reproduzir facilmente? http://www.generonumero.media/
+
+OK No forum, ao criar um topico, utilizar antes do titulo a marcacao do modulo e da aula. Ex: [m1a3] 
+
+OK Comecei mais tarde e estou nas primeiras aulas. Por algum motivo, está rodando quando eu coloco só uma linha, mas quando coloco a segunda linha, não roda o segundo comando. Mais especificamente: roda o "input (qual o seu nome)", mas não roda o "print (Oi + nome). Tem ideia do que  está errado?
+
+
+OKO que é o seu projeto 'rows'?
+
+OK Álvaro, essas colunas da planilha 'candidatos' que foram exibidas no PYTHON, aparece em ordem exatamente como está? IGOR
+show, valeu!
+
+OK Pergunta: Eu consigo abrir essa base de dados grande em﻿ csv, caso ela não esteja salva em um diretório do Jupyter?
+
+
+Obrigado pela presença, galera! :) -- Álvaro
